@@ -9,8 +9,14 @@
     <!-- Link Framework -->
     <link rel="stylesheet" href="css/framework.css">
 
+    <!-- Link Media Queries -->
+    <link rel="stylesheet" href="css/media-queries.css">
+
     <!-- Link Style -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link Actions -->
+    <link rel="stylesheet" href="css/actions.css">
 
     <!-- Link Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -41,19 +47,19 @@
                         <!-- Main Nav Menu Item -->
                         <div class="main-nav-menu-item">
                             <img src="img/home.svg" alt="Home">
-                            <span>Home</span>
+                            <a href="#">Home</a>
                         </div>
 
                         <!-- Main Nav Menu Item -->
                         <div class="main-nav-menu-item">
                             <img src="img/search.svg" alt="Cerca">
-                            <span>Cerca</span>
+                            <a href="#">Cerca</a>
                         </div>
 
                         <!-- Main Nav Menu Item -->
                         <div class="main-nav-menu-item">
                             <img src="img/libreria.svg" alt="Libreria">
-                            <span>La tua libreria</span>
+                            <a href="#">La tua libreria</a>
                         </div>
 
                     </div>
@@ -65,7 +71,7 @@
                             <div class="main-nav-playlist-new-plus">
                                 <a href="#"><i class="fas fa-plus"></i></a>
                             </div>
-                            <span>Crea Playlist</span>
+                            <a class="main-nav-playlist-new-text" href="#">Crea Playlist</a>
                         </div>
 
                         <ul class="main-nav-playlist-list">
@@ -83,7 +89,7 @@
                     <div class="main-nav-user">
                         <div class="main-nav-user-install">
                             <i class="far fa-arrow-alt-circle-down"></i>
-                            <span class="main-nav-user-install-text">Installa app</span>
+                            <a class="main-nav-user-install-text" href="#">Installa app</a>
                         </div>
 
                         <div class="main-nav-user-profile">
@@ -115,42 +121,60 @@
                     <div class="main-content-category-item-list">
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                            <div class="main-content-category-cover">
+                                <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Heavy Metal</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/stranger.jpeg" alt="Stranger Things">
+                            <div class="main-content-category-cover">
+                                <img src="img/stranger.jpeg" alt="Stranger">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
                             <div class="main-content-category-item-subtitle">Kyle Dixon & Michael Stein</div>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/aquietplace.jpeg" alt="A quiet place">
+                            <div class="main-content-category-cover">
+                                <img src="img/aquietplace.jpeg" alt="A quiet place">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">A quiet place</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/split.jpeg" alt="Split">
+                            <div class="main-content-category-cover">
+                                <img src="img/split.jpeg" alt="Split">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Split</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/cure.jpeg" alt="A cure for wellness">
+                            <div class="main-content-category-cover">
+                                <img src="img/cure.jpeg" alt="A cure for wellness">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">A cure for wellness</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/sinister.jpeg" alt="Sinister">
+                            <div class="main-content-category-cover">
+                                <img src="img/sinister.jpeg" alt="Sinister">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Sinister</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
                         </div>
@@ -166,13 +190,19 @@
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/radar.jpeg" alt="Release Radar">
+                            <div class="main-content-category-cover">
+                                <img src="img/radar.jpeg" alt="Release Radar">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Release Radar</h3>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                            <div class="main-content-category-cover">
+                                <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Daily Mix 1</h3>
                         </div>
 
@@ -187,13 +217,19 @@
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/youg.jpeg" alt="Youg">
+                            <div class="main-content-category-cover">
+                                <img src="img/youg.jpeg" alt="Youg">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Release Radar</h3>
                         </div>
 
                         <!-- Main Content Category Item -->
                         <div class="main-content-category-item">
-                            <img src="img/einaudi.jpeg" alt="Einaudi">
+                            <div class="main-content-category-cover">
+                                <img src="img/einaudi.jpeg" alt="Einaudi">
+                                <div class="play-button"><i class="far fa-play-circle"></i></div>
+                            </div>
                             <h3 class="main-content-category-item-title">Daily Mix 1</h3>
                         </div>
 
@@ -239,7 +275,7 @@
                 </span>
 
                 <div class="song-bar-total">
-                    <div class="song-tools-bar-progress"></div>
+                    <div class="song-bar-progress"></div>
                 </div>
 
                 <span class="song-bar-time">
@@ -255,7 +291,7 @@
                 <i class="fas fa-desktop"></i>
                 <i class="fas fa-volume-up"></i>
                 <div class="song-bar-total">
-                    <div class="song-tools-bar-progress"></div>
+                    <div class="song-bar-progress"></div>
                 </div>
             </div>
         </div>

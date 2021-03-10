@@ -53,6 +53,7 @@ footer {
     width: calc( 100% - 220px );
     float: left;
     padding-top: 70px;
+    padding-bottom: 50px;
     background-color: #151922;
     overflow-y: auto;
 }
@@ -70,7 +71,7 @@ footer {
     width: calc( 100% - 220px );
     text-align: right;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* ---------------------------------------------------- */

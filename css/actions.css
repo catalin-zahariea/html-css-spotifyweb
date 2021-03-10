@@ -1,0 +1,102 @@
+/* ---------------------------------------------------- */
+/* FIXED HEADER */
+
+#fixed-header button:hover {
+    padding: 10px 40px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------- */
+/* MAIN NAV */
+
+.main-nav-menu-item a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-nav-playlist-new:hover > .main-nav-playlist-new-text {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-nav-playlist-new:hover > .main-nav-playlist-new-plus {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.main-nav-playlist-list a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-nav-user-install:hover > i,
+.main-nav-user-install:hover > a {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------- */
+/* MAIN CONTENT */
+
+.main-content-categories-list li:active::after {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #CCF476;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.main-content-categories-list a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-content-category-cover:hover img {
+    opacity: 0.5;
+}
+
+.main-content-category-cover:hover .play-button {
+    display: inline-block;
+}
+
+.main-content-category-item .main-content-category-item-subtitle:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------- */
+/* FOOTER */
+
+footer i:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.current-song-title:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.song-tools-buttons i:nth-child(3):hover {
+    font-size: 28px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.song-bar-total:hover .song-bar-progress {
+    background-color: #CCF476;
+    cursor: pointer;
+}
+
+.song-bar-total:hover .song-bar-progress::after {
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* COMMON */
