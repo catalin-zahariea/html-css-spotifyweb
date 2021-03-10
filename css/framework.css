@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* ---------------------------------------------------- */
 /* CONTAINERS */
 
@@ -17,6 +25,7 @@ body {
 main {
     height: calc( 100% - 80px );
     width: 100%;
+    overflow: hidden;
 }
 
 footer {
@@ -43,8 +52,9 @@ footer {
     height: 100%;
     width: calc( 100% - 220px );
     float: left;
-    padding-top: 85px;
+    padding-top: 70px;
     background-color: #151922;
+    overflow-y: auto;
 }
 
 .container-flex {
