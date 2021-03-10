@@ -21,15 +21,15 @@ body {
 }
 
 h2 {
-    padding-top: 15px;
+    padding-top: 20px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 h3 {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -202,22 +202,28 @@ h4 {
     text-align: center;
 }
 
-.main-content-category-item:nth-child(1n+2) {
-    padding-left: 15px;
+.main-content-category-item:not(:last-child) {
+    padding-right: 15px;
 }
 
 .main-content-category-item-title {
-    max-width: 200px;
+    max-width: 180px;
 }
 
 .main-content-category-item-subtitle {
     color: #868686;
     font-size: 10px;
+    padding-top: 5px;
 }
 
 .main-content-category-item-list img {
-    padding: 15px 0;
+    padding: 15px 0 5px 0;
     height: 200px;
+}
+
+#artisti-popolari .main-content-category-item-list img {
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /* ---------------------------------------------------- */
