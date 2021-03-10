@@ -29,9 +29,9 @@ h4 {
 /* ---------------------------------------------------- */
 /* MAIN NAV */
 
-.main-nav .container-flex {
+.main-nav {
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: 20px;
     overflow: hidden;
 }
 
@@ -49,12 +49,12 @@ h4 {
     align-items: center;
     padding-bottom: 10px;
     color: #868686;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 .main-nav-menu-item img {
-    height: 20px;
+    height: 25px;
     padding-right: 5px;
 }
 
@@ -65,13 +65,17 @@ h4 {
     flex-grow: 5;
 }
 
-.main-nav-playlist-new {
+.main-nav-playlist h4 {
     padding-top: 15px;
+}
+
+.main-nav-playlist-new {
+    padding-top: 10px;
     display: flex;
     align-items: center;
     color: #868686;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .main-nav-playlist-new-plus {
@@ -148,9 +152,15 @@ h4 {
 }
 
 /* ---------------------------------------------------- */
+/* MAIN */
+
+
+
+
+/* ---------------------------------------------------- */
 /* FOOTER */
 
-footer container-flex {
+footer {
     justify-content: space-between;
 }
 
@@ -193,23 +203,23 @@ footer container-flex {
 /* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Buttons °°°°°°°°°°°°°°°°°°°°°°°°° */
 
 .song-tools {
-    width: 50%;
+    width: 40%;
 }
 
 .song-tools-buttons {
-    width: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 75px 10px 75px;
 }
 
 .song-tools-buttons i {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .song-tools-buttons i:nth-child(3) {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 /* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Bar °°°°°°°°°°°°°°°°°°°°°°°°° */
@@ -246,5 +256,19 @@ footer container-flex {
 /* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Volume °°°°°°°°°°°°°°°°°°°°°°°°° */
 
 .song-volume {
-    width: 25%;
+    width: 20%;
+}
+
+.song-volume-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.song-volume-buttons i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.song-volume-buttons i:nth-child(1n+2) {
+    padding-left: 15px;
 }
