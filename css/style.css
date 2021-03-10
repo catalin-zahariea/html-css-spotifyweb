@@ -1,0 +1,127 @@
+/* COMMON */
+
+/* FIXED HEADER */
+#fixed-header button {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    border: 1px solid #fff;
+    padding: 10px 35px;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------------- */
+/* FONTS */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------- */
+/* MAIN NAV */
+
+.main-nav .container-flex {
+    flex-direction: column;
+    padding-left: 15px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Main Nav Logo °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.main-nav-logo {
+    padding: 15px 0;
+    width: 120px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Main Nav Menu °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.main-nav-menu-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-nav-menu-item img {
+    height: 25px;
+    padding-right: 5px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Main Nav Playlist °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.main-nav-playlist {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-nav-playlist-new {
+    display: flex;
+    align-items: center;
+    color: #868686;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.main-nav-playlist-new-plus {
+    padding: 10px;
+    background-color: #868686;
+    color: #fff;
+}
+
+.main-nav-playlist-list {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.main-nav-playlist-list li {
+    padding-top: 10px;
+}
+
+.main-nav-playlist-list a {
+    color: #868686;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------- */
+/* FOOTER */
+
+footer container-flex {
+    justify-content: space-between;
+}
+
+.current-song .container-flex {
+    align-items: center;
+}
+
+.current-song .container-flex img {
+    height: 45px;
+}
+
+.current-song-info {
+    padding: 0 40px 0 15px;
+}
+
+.current-song-author {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.current-song-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #868686;
+}
