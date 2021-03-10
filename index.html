@@ -29,13 +29,8 @@
 
     <!-- Main -->
     <main>
-
-        <div>
-        
             <!-- Main Nav -->
             <nav class="main-nav">
-                <div class="container-flex">
-
                     <!-- Main Nav Logo -->
                     <div class="main-nav-logo">
                         <img src="img/logo.svg" alt="Spotify Logo">
@@ -83,7 +78,19 @@
                             <li><a href="#">Nome Playlist</a></li>
                         </ul>
                     </div>
-                </div>
+
+                    <!-- Main Nav User -->
+                    <div class="main-nav-user">
+                        <div class="main-nav-user-install">
+                            <i class="far fa-arrow-alt-circle-down"></i>
+                            <span class="main-nav-user-install-text">Installa app</span>
+                        </div>
+
+                        <div class="main-nav-user-profile">
+                            <img src="img/profile.svg" alt="Profile photo">
+                            <span class="main-nav-user-name">John Doe</span>
+                        </div>
+                    </div>
             </nav>
             <!-- End Main Nav -->
 
@@ -92,39 +99,58 @@
                 
             </div>
             <!-- End Main Content -->
-
-        </div>
-
     </main>
     <!-- End Main -->
     
 
     <!-- Footer -->
     <footer>
-        <div class="container-flex">
-            <!-- Current song -->
-            <div class="current-song">
-                <div class="container-flex">
-                    <img src="img/sinister.jpeg" alt="Current song">
-                    <div class="current-song-info">
-                        <div class="current-song-author">Sinister</div>
-                        <div class="current-song-title">Brano Nome</div>
-                    </div>
-                    <div class="current-song-favorite">
-                        <i class="far fa-heart"></i>
-                        <i class="far fa-folder"></i>
-                    </div>
+        <!-- Current song -->
+        <div class="current-song">
+            <div class="current-song-info">
+                <img src="img/sinister.jpeg" alt="Current song">
+                <div class="current-song-info-name">
+                    <div class="current-song-author">Sinister</div>
+                    <div class="current-song-title">Brano Nome</div>
+                </div>
+                <div class="current-song-favorite">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
                 </div>
             </div>
+        </div>
 
-            <!-- Song tools -->
-            <div>
-
+        <!-- Song tools -->
+        <div class="song-tools">
+            <div class="song-tools-buttons">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo-alt"></i>
             </div>
 
-            <!-- Song volume -->
-            <div>
+            <div class="song-bar">
+                <span class="song-bar-time">
+                    0:25
+                </span>
 
+                <div class="song-bar-total">
+                    <div class="song-tools-bar-progress"></div>
+                </div>
+
+                <span class="song-bar-time">
+                    4:35
+                </span>
+            </div>
+        </div>
+
+        <!-- Song volume -->
+        <div class="song-volume">
+            <div class="song-volume-buttons">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
             </div>
         </div>
     </footer>

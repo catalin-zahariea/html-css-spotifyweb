@@ -15,6 +15,7 @@
 
 /* ---------------------------------------------------- */
 /* FONTS */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -31,7 +32,6 @@ h4 {
 .main-nav .container-flex {
     flex-direction: column;
     padding-left: 15px;
-    height: 100%;
     overflow: hidden;
 }
 
@@ -49,23 +49,24 @@ h4 {
     align-items: center;
     padding-bottom: 10px;
     color: #868686;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
 }
 
 .main-nav-menu-item img {
-    height: 25px;
+    height: 20px;
     padding-right: 5px;
 }
 
 /* °°°°°°°°°°°°°°°°°°°°°°°°° Main Nav Playlist °°°°°°°°°°°°°°°°°°°°°°°°° */
 
 .main-nav-playlist {
-    height: 100%;
     overflow: hidden;
+    flex-grow: 5;
 }
 
 .main-nav-playlist-new {
+    padding-top: 15px;
     display: flex;
     align-items: center;
     color: #868686;
@@ -74,9 +75,17 @@ h4 {
 }
 
 .main-nav-playlist-new-plus {
-    padding: 10px;
+    height: 25px;
+    width: 25px;
     background-color: #868686;
     color: #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.main-nav-playlist-new-plus i {
+    line-height: 25px;
+    color: #000001;
 }
 
 .main-nav-playlist-list {
@@ -95,6 +104,49 @@ h4 {
     font-weight: 500;
 }
 
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Main Nav User °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.main-nav-user {
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.main-nav-user-install {
+    display: flex;
+    align-items: center;
+    color: #868686;
+    font-size: 10px;
+}
+
+.main-nav-user i {
+    padding-right: 5px;
+}
+
+.main-nav-user-install {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #868686;
+    width: 95%;
+}
+
+.main-nav-user-profile {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-user-profile img {
+    width: 20px;
+    background-color: #868686;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-nav-user-name {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+}
+
 /* ---------------------------------------------------- */
 /* FOOTER */
 
@@ -102,16 +154,23 @@ footer container-flex {
     justify-content: space-between;
 }
 
-.current-song .container-flex {
+.current-song {
+    width: 25%;
     align-items: center;
 }
 
-.current-song .container-flex img {
+.current-song-info img {
     height: 45px;
+    padding-right: 15px;
 }
 
 .current-song-info {
-    padding: 0 40px 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.current-song-info-name {
+    padding-right: 30px;
 }
 
 .current-song-author {
@@ -124,4 +183,68 @@ footer container-flex {
     font-weight: 600;
     font-size: 11px;
     color: #868686;
+}
+
+.current-song i {
+    color: #868686;
+    padding-right: 10px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Buttons °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.song-tools {
+    width: 50%;
+}
+
+.song-tools-buttons {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-tools-buttons i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.song-tools-buttons i:nth-child(3) {
+    font-size: 30px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Bar °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.song-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-bar-time {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.song-bar-total {
+    width: 80%;
+    height: 4px;
+    content: "";
+    background-color: #868686;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+
+.song-tools-bar-progress {
+    width: 20%;
+    height: 100%;
+    content: "";
+    background-color: #C1C1C1;
+    border-radius: 20px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°° Song Tools Volume °°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.song-volume {
+    width: 25%;
 }
