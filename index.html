@@ -9,11 +9,23 @@
     <!-- Link Framework -->
     <link rel="stylesheet" href="css/framework.css">
 
+    <!-- Link Style Common -->
+    <link rel="stylesheet" href="css/style-common.css">
+
+    <!-- Link Style Fixed Header -->
+    <link rel="stylesheet" href="css/style-fixed-header.css">
+
+    <!-- Link Style Main Nav -->
+    <link rel="stylesheet" href="css/style-main-nav.css">
+
+    <!-- Link Style Main Content -->
+    <link rel="stylesheet" href="css/style-main-content.css">
+
+    <!-- Link Style Footer -->
+    <link rel="stylesheet" href="css/style-footer.css">
+
     <!-- Link Media Queries -->
     <link rel="stylesheet" href="css/media-queries.css">
-
-    <!-- Link Style -->
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Link Actions -->
     <link rel="stylesheet" href="css/actions.css">
@@ -39,7 +51,8 @@
             <nav class="main-nav">
                     <!-- Main Nav Logo -->
                     <div class="main-nav-logo">
-                        <img src="img/logo.svg" alt="Spotify Logo">
+                        <img class="main-nav-logo-large" src="img/logo.svg" alt="Spotify Logo">
+                        <img class="main-nav-logo-small" src="img/logo-small.svg" alt="Spotify Logo">
                     </div>
 
                     <!-- Main Nav Menu -->
@@ -102,9 +115,9 @@
 
             <!-- Main Content -->
             <div class="main-content">
-                <!-- Main Content Categories -->
-                <div class="main-content-categories">
-                    <ul class="main-content-categories-list">
+                <!-- Main Content library -->
+                <div class="main-content-library">
+                    <ul class="main-content-library-list">
                         <li><a href="#">In evidenza</a></li>
                         <li><a href="#">Podcast</a></li>
                         <li><a href="#">Classifiche</a></li>
@@ -117,123 +130,121 @@
                 <!-- Recently Played -->
                 <div id="recently-played" class="main-content-category">
                     <h2 class="main-content-category-title">Recently played</h2>
-
-                    <div class="main-content-category-item-list">
+                    <ul>
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/metal_lifting.jpg" alt="Heavy Metal">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Heavy Metal</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/stranger.jpeg" alt="Stranger">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
                             <div class="main-content-category-item-subtitle">Kyle Dixon & Michael Stein</div>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/aquietplace.jpeg" alt="A quiet place">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">A quiet place</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/split.jpeg" alt="Split">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Split</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/cure.jpeg" alt="A cure for wellness">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">A cure for wellness</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/sinister.jpeg" alt="Sinister">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Sinister</h3>
                             <div class="main-content-category-item-subtitle">Subtitle</div>
-                        </div>
-
-                    </div>
+                        </li>
+                    </ul>
                 </div>
 
                 <!-- Creato per te -->
                 <div id="creato-per-te" class="main-content-category">
                     <h2 class="main-content-category-title">Creato per John Doe</h2>
                     <div class="main-content-category-item-subtitle">Più ascolti, più accurati saranno i suggerimenti.</div>
-                    <div class="main-content-category-item-list">
+                    <ul>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/radar.jpeg" alt="Release Radar">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Release Radar</h3>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/mixdaily.jpeg" alt="Daily Mix 1">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Daily Mix 1</h3>
-                        </div>
+                        </li>
 
-                    </div>
+                    </ul>
                 </div>
 
                 <!-- Artisti più popolari -->
                 <div id="artisti-popolari" class="main-content-category">
                     <h2 class="main-content-category-title">Artisti più popolari</h2>
                     <div class="main-content-category-item-subtitle">Più ascolti, più accurati saranno i suggerimenti.</div>
-                    <div class="main-content-category-item-list">
+                    <ul>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/youg.jpeg" alt="Youg">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Release Radar</h3>
-                        </div>
+                        </li>
 
                         <!-- Main Content Category Item -->
-                        <div class="main-content-category-item">
+                        <li>
                             <div class="main-content-category-cover">
                                 <img src="img/einaudi.jpeg" alt="Einaudi">
                                 <div class="play-button"><i class="far fa-play-circle"></i></div>
                             </div>
                             <h3 class="main-content-category-item-title">Daily Mix 1</h3>
-                        </div>
+                        </li>
 
-                    </div>
+                    </ul>
                 </div>
 
             </div>
@@ -244,54 +255,56 @@
 
     <!-- Footer -->
     <footer>
-        <!-- Current song -->
-        <div class="current-song">
-            <div class="current-song-info">
-                <img src="img/sinister.jpeg" alt="Current song">
-                <div class="current-song-info-name">
-                    <div class="current-song-author">Sinister</div>
-                    <div class="current-song-title">Brano Nome</div>
-                </div>
-                <div class="current-song-favorite">
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-folder"></i>
+        <div class="footer-container">
+            <!-- Current song -->
+            <div class="current-song">
+                <div class="current-song-info">
+                    <img src="img/sinister.jpeg" alt="Current song">
+                    <div class="current-song-info-name">
+                        <div class="current-song-author">Sinister</div>
+                        <div class="current-song-title">Brano Nome</div>
+                    </div>
+                    <div class="current-song-favorite">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-folder"></i>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Song tools -->
-        <div class="song-tools">
-            <div class="song-tools-buttons">
-                <i class="fas fa-random"></i>
-                <i class="fas fa-step-backward"></i>
-                <i class="far fa-play-circle"></i>
-                <i class="fas fa-step-forward"></i>
-                <i class="fas fa-redo-alt"></i>
-            </div>
+            <!-- Song tools -->
+            <div class="song-tools">
+                <ul class="song-tools-buttons">
+                    <li><i class="fas fa-random"></i></li>
+                    <li><i class="fas fa-step-backward"></i></li>
+                    <li><i class="far fa-play-circle"></i></li>
+                    <li><i class="fas fa-step-forward"></i></li>
+                    <li><i class="fas fa-redo-alt"></i></li>
+                </ul>
 
-            <div class="song-bar">
-                <span class="song-bar-time">
-                    0:25
-                </span>
+                <div class="song-bar">
+                    <span class="song-bar-time">
+                        0:25
+                    </span>
 
-                <div class="song-bar-total">
-                    <div class="song-bar-progress"></div>
+                    <div class="song-bar-total">
+                        <div class="song-bar-progress"></div>
+                    </div>
+
+                    <span class="song-bar-time">
+                        4:35
+                    </span>
                 </div>
-
-                <span class="song-bar-time">
-                    4:35
-                </span>
             </div>
-        </div>
 
-        <!-- Song volume -->
-        <div class="song-volume">
-            <div class="song-volume-buttons">
-                <i class="fas fa-list-ul"></i>
-                <i class="fas fa-desktop"></i>
-                <i class="fas fa-volume-up"></i>
-                <div class="song-bar-total">
-                    <div class="song-bar-progress"></div>
+            <!-- Song volume -->
+            <div class="song-volume">
+                <div class="song-volume-buttons">
+                    <i class="fas fa-list-ul"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="song-bar-total">
+                        <div class="song-bar-progress"></div>
+                    </div>
                 </div>
             </div>
         </div>

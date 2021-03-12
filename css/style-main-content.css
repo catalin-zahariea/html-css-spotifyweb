@@ -1,0 +1,96 @@
+/* ---------------------------------------------------- */
+/* MAIN CONTENT LIBRARY */
+
+.main-content-library {
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+
+.main-content-library-list {
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content-library-list li {
+    display: inline-block;
+    position: relative;
+    padding: 20px 10px 0 10px;
+    transition: all 1s ease-out;
+}
+
+.main-content-library-list li a {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #868686;
+}
+
+.main-content-library-list li:first-child::after {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #CCF476;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ---------------------------------------------------- */
+/* MAIN CONTENT CATEGORIES */
+
+.main-content-category {
+    padding: 15px 7.5px;
+}
+
+.main-content-category-title,
+.main-content-category-item-subtitle {
+    padding: 0 7.5px;
+}
+
+.main-content-category ul {
+    padding: 15px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.main-content-category li {
+    display: inline-block;
+    text-align: center;
+    width: calc( 100% / 6 );
+    padding: 0 7.5px;
+}
+
+.main-content-category-cover {
+    position: relative;
+}
+
+.main-content-category-cover img {
+    height: auto;
+    width: 100%;
+}
+
+.main-content-category-cover .play-button {
+    color: #fff;
+    font-size: 48px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content-category-item-subtitle {
+    color: #868686;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+#artisti-popolari li img {
+    border-radius: 50%;
+    overflow: hidden;
+}

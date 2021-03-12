@@ -5,6 +5,7 @@
     padding: 10px 40px;
     font-size: 11px;
     cursor: pointer;
+    box-shadow: 0 0 10px 0.01px #fff;
 }
 
 /* ---------------------------------------------------- */
@@ -39,7 +40,7 @@
 /* ---------------------------------------------------- */
 /* MAIN CONTENT */
 
-.main-content-categories-list li:active::after {
+.main-content-library-list li:active::after {
     content: "";
     height: 2px;
     width: 30px;
@@ -51,7 +52,7 @@
     cursor: pointer;
 }
 
-.main-content-categories-list a:hover {
+.main-content-library-list a:hover {
     color: #fff;
     cursor: pointer;
 }
@@ -83,11 +84,18 @@ footer i:hover {
     cursor: pointer;
 }
 
-.song-tools-buttons i:nth-child(3):hover {
-    font-size: 28px;
-    line-height: 26px;
+.song-tools-buttons li i:hover {
+    font-size: 16px;
     cursor: pointer;
+    text-shadow: 0 0 10px #C1C1C1;
 }
+
+.song-tools-buttons li:nth-child(3) i:hover {
+    font-size: 28px;
+    cursor: pointer;
+    text-shadow: 0 0 10px #C1C1C1;
+}
+
 
 .song-bar-total:hover .song-bar-progress {
     background-color: #CCF476;
