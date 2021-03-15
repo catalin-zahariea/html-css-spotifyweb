@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.main-content-category-cover:hover {
+    transform: scale(1.05);
+}
+
 .main-content-category-cover:hover img {
     opacity: 0.5;
 }
