@@ -2,113 +2,104 @@
 /* FIXED HEADER */
 
 #fixed-header button:hover {
-    padding: 10px 40px;
-    font-size: 11px;
-    cursor: pointer;
-    box-shadow: 0 0 10px 0.01px #fff;
+  padding: 10px 40px;
+  font-size: 11px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0.01px #fff;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN NAV */
 
 .main-nav-menu-item a:hover {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .main-nav-playlist-new:hover > .main-nav-playlist-new-text {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .main-nav-playlist-new:hover > .main-nav-playlist-new-plus {
-    background-color: #fff;
-    cursor: pointer;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .main-nav-playlist-list a:hover {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .main-nav-user-install:hover > i,
 .main-nav-user-install:hover > a {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN CONTENT */
 
 .main-content-library-list li:active::after {
-    content: "";
-    height: 2px;
-    width: 30px;
-    background-color: #CCF476;
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
+  content: "";
+  height: 2px;
+  width: 30px;
+  background-color: #ccf476;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
 
 .main-content-library-list a:hover {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .main-content-category-cover:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .main-content-category-cover:hover img {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .main-content-category-cover:hover .play-button {
-    display: inline-block;
+  display: inline-block;
 }
 
 .main-content-category-item .main-content-category-item-subtitle:hover {
-    color: #fff;
-    text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
 }
 
 /* ---------------------------------------------------- */
 /* FOOTER */
 
 footer i:hover {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
-.current-song-title:hover {
-    color: #fff;
-    text-decoration: underline;
-    cursor: pointer;
+.footer-song-title:hover {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.song-tools-buttons li i:hover {
-    font-size: 16px;
-    cursor: pointer;
-    text-shadow: 0 0 10px #C1C1C1;
+.footer-center-buttons li:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #c1c1c1;
+  cursor: pointer;
 }
 
-.song-tools-buttons li:nth-child(3) i:hover {
-    font-size: 28px;
-    cursor: pointer;
-    text-shadow: 0 0 10px #C1C1C1;
+.bar-total:hover .bar-progress {
+  background-color: #ccf476;
+  cursor: pointer;
 }
 
-
-.song-bar-total:hover .song-bar-progress {
-    background-color: #CCF476;
-    cursor: pointer;
+.bar-total:hover .bar-progress::after {
+  display: inline-block;
+  cursor: pointer;
 }
-
-.song-bar-total:hover .song-bar-progress::after {
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* COMMON */

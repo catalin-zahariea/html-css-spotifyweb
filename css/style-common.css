@@ -2,48 +2,46 @@
 /* COMMON */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #868686;
+  text-decoration: none;
+  color: #868686;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
 
 /* ---------------------------------------------------- */
 /* FONTS */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 h3 {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 h4 {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
 }
-

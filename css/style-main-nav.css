@@ -2,150 +2,150 @@
 /* MAIN NAV */
 
 .main-nav {
-    flex-direction: column;
-    overflow: hidden;
-    padding: 15px
+  flex-direction: column;
+  overflow: hidden;
+  padding: 15px;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN NAV LOGO */
 
 .main-nav-logo-large {
-    padding-bottom: 15px;
-    width: 100px;
+  padding-bottom: 15px;
+  width: 100px;
 }
 
 .main-nav-logo-small {
-    display: none;
-    width: 30px;
+  display: none;
+  width: 30px;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN NAV MENU */
 
 .main-nav-menu-item {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
-    font-size: 12px;
-    font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .main-nav-menu-item a {
-    color: #868686;
-    padding-left: 5px;
-    transition: all 0.5s ease-out;
+  color: #868686;
+  padding-left: 5px;
+  transition: all 0.5s ease-out;
 }
 
 .main-nav-menu-item img {
-    width: 20px;
+  width: 20px;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN NAV PLAYLIST */
 
 .main-nav-playlist {
-    overflow: hidden;
-    flex-grow: 5;
-    min-height: 150px;
+  overflow: hidden;
+  flex-grow: 5;
+  min-height: 150px;
 }
 
 .main-nav-playlist h4 {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .main-nav-playlist-new {
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    color: #868686;
-    font-weight: 600;
-    font-size: 12px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #868686;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .main-nav-playlist-new-text {
-    color: #868686;
-    transition: all 0.5s ease-out;
+  color: #868686;
+  transition: all 0.5s ease-out;
 }
 
 .main-nav-playlist-new-plus {
-    height: 25px;
-    width: 25px;
-    background-color: #868686;
-    color: #fff;
-    margin-right: 10px;
-    text-align: center;
-    transition: all 0.5s ease-out;
+  height: 25px;
+  width: 25px;
+  background-color: #868686;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 0.5s ease-out;
 }
 
 .main-nav-playlist-new-plus i {
-    line-height: 25px;
-    color: #000001;
+  line-height: 25px;
+  color: #000001;
 }
 
 .main-nav-playlist-list {
-    height: 100%;
-    overflow-y: auto;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .main-nav-playlist-list li {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .main-nav-playlist-list a {
-    color: #868686;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-    transition: all 0.2s ease-out;
+  color: #868686;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease-out;
 }
 
 /* ---------------------------------------------------- */
 /* MAIN NAV USER */
 
 .main-nav-user {
-    align-items: flex-end;
-    overflow: hidden;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
 .main-nav-user-install {
-    display: flex;
-    align-items: center;
-    color: #868686;
-    font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: #868686;
+  font-size: 10px;
 }
 
 .main-nav-user i {
-    padding-right: 5px;
-    transition: all 0.5s ease-out;
+  padding-right: 5px;
+  transition: all 0.5s ease-out;
 }
 
 .main-nav-user-install {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #868686;
-    width: 95%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #868686;
+  width: 95%;
 }
 
 .main-nav-user-install-text {
-    color: #868686;
-    transition: all 0.5s ease-out;
+  color: #868686;
+  transition: all 0.5s ease-out;
 }
 
 .main-nav-user-profile {
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .main-nav-user-profile img {
-    width: 20px;
-    background-color: #868686;
-    border-radius: 50%;
-    margin-right: 10px;
+  width: 20px;
+  background-color: #868686;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .main-nav-user-name {
-    font-weight: 700;
-    color: #fff;
-    font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 12px;
 }

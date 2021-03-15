@@ -125,6 +125,22 @@
   }
 
   /* ---------------------------------------------------- */
+  /* FOOTER */
+
+  .footer-icons li {
+    margin: 3px;
+    font-size: 10px;
+  }
+
+  .footer-icons {
+    margin: -3px;
+  }
+
+  .footer-left .footer-icons li {
+    display: block;
+  }
+
+  /* ---------------------------------------------------- */
   /* FOOTER-LEFT */
 
   .footer-song-info img {
@@ -151,12 +167,92 @@
     font-size: 8px;
   }
 
-  .footer-song-icons i {
+  /* ---------------------------------------------------- */
+  /* FOOTER-CENTER BUTTONS */
+
+  .footer-center {
+    flex-grow: 2;
+  }
+
+  .footer-center-buttons {
+    padding-bottom: 5px;
+  }
+
+  .footer-center-buttons li i {
+    font-size: 10px;
+  }
+
+  .footer-center-buttons li:nth-child(3) i {
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+  }
+
+  /* ---------------------------------------------------- */
+  /* FOOTER-RIGHT */
+
+  .footer-right-buttons li i {
+    font-size: 10px;
+  }
+}
+
+/* SM Media Query */
+@media screen and (min-width: 561px) and (max-width: 767px) {
+  /* ---------------------------------------------------- */
+  /* MAIN CONTENT */
+
+  .main-content-category ul {
+    flex-wrap: wrap;
+  }
+
+  .main-content-category li {
+    width: calc(100% / 2);
+  }
+
+  /* ---------------------------------------------------- */
+  /* FOOTER */
+
+  .footer-icons li {
+    margin: 3px;
+    font-size: 10px;
+  }
+
+  .footer-icons {
+    margin: -3px;
+  }
+
+  .footer-left .footer-icons li {
+    display: block;
+  }
+
+  /* ---------------------------------------------------- */
+  /* FOOTER-LEFT */
+
+  .footer-song-info img {
+    width: 45px;
+  }
+
+  .footer-song-info {
+    display: flex;
+    align-items: center;
+    margin: -5px;
+  }
+
+  .footer-song-info img,
+  .footer-song-info-name,
+  .footer-song-favorite {
+    margin: 5px;
+  }
+
+  .footer-left .footer-icons {
+    padding-left: 5px;
+  }
+
+  .footer-song-author {
     font-size: 12px;
   }
 
-  .footer-song i:not(:last-child) {
-    padding-right: 5px;
+  .footer-song-title {
+    font-size: 10px;
   }
 
   /* ---------------------------------------------------- */
@@ -180,24 +276,10 @@
   }
 
   /* ---------------------------------------------------- */
-  /* FOOTER-RIGHT VOLUME */
+  /* FOOTER-RIGHT */
 
   .footer-right-buttons li i {
     font-size: 10px;
-  }
-}
-
-/* SM Media Query */
-@media screen and (min-width: 561px) and (max-width: 767px) {
-  /* ---------------------------------------------------- */
-  /* MAIN CONTENT */
-
-  .main-content-category ul {
-    flex-wrap: wrap;
-  }
-
-  .main-content-category li {
-    width: calc(100% / 2);
   }
 }
 

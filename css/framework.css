@@ -2,43 +2,43 @@
 /* CONTAINERS */
 
 body {
-    height: 100vh;
-    width: 100%;
-    min-width: 450px;
+  height: 100vh;
+  width: 100%;
+  min-width: 450px;
 }
 
 main {
-    height: calc( 100% - 80px );
-    width: 100%;
-    overflow: hidden;
+  height: calc(100% - 80px);
+  width: 100%;
+  overflow: hidden;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 7.5px;
-    height: 80px;
-    background-color: #272727;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 7.5px;
+  height: 80px;
+  background-color: #272727;
+  overflow: hidden;
 }
 
 .main-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 220px;
-    float: left;
-    background-color: #000001;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 220px;
+  float: left;
+  background-color: #000001;
 }
 
 .main-content {
-    height: 100%;
-    width: calc( 100% - 220px );
-    float: left;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    background-color: #151922;
-    overflow-y: auto;
+  height: 100%;
+  width: calc(100% - 220px);
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #151922;
+  overflow-y: auto;
 }
